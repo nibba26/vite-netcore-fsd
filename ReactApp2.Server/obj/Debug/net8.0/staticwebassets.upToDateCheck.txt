@@ -1,0 +1,4 @@
+wwwroot\assets\index-CRjCMaHh.css
+wwwroot\assets\index-DWfd0RoP.js
+wwwroot\index.html
+wwwroot\vite.svg

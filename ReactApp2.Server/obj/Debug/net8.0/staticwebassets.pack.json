@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-CRjCMaHh.css",
+      "PackagePath": "staticwebassets\\assets\\index-CRjCMaHh.css"
+    },
+    {
+      "Id": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-DWfd0RoP.js",
+      "PackagePath": "staticwebassets\\assets\\index-DWfd0RoP.js"
+    },
+    {
+      "Id": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\vite.svg",
+      "PackagePath": "staticwebassets\\vite.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ReactApp2.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ReactApp2.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ReactApp2.Server.props",
+      "PackagePath": "build\\ReactApp2.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ReactApp2.Server.props",
+      "PackagePath": "buildMultiTargeting\\ReactApp2.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ReactApp2.Server.props",
+      "PackagePath": "buildTransitive\\ReactApp2.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

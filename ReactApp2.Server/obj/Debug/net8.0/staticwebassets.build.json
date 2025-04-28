@@ -1,0 +1,446 @@
+{
+  "Version": 1,
+  "Hash": "SR7ic5FWllF6VrmdusxtCANZeMccyOjXyMxKHqjURko=",
+  "Source": "ReactApp2.Server",
+  "BasePath": "_content/ReactApp2.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\git\\vite-netcore-fsd\\reactapp2.client\\reactapp2.client.esproj",
+      "Version": 2,
+      "Source": "reactapp2.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ReactApp2.Server\\wwwroot",
+      "Source": "ReactApp2.Server",
+      "ContentRoot": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-CRjCMaHh.css",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "assets/index-CRjCMaHh#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "epwu2t5z2c",
+      "Integrity": "7hgy60RT6r2ojForsbOwfbZJL9mCEIV2sck/kLACsSw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-CRjCMaHh.css"
+    },
+    {
+      "Identity": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-DWfd0RoP.js",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "assets/index-DWfd0RoP#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "552y34k0jr",
+      "Integrity": "WfKrWxVzSSEHaT4na5+/gyagl389ZL0eWGct38/eWas=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-DWfd0RoP.js"
+    },
+    {
+      "Identity": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\index.html",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fd40uapyb",
+      "Integrity": "E8tEVnBRvHH2zK1gmBLgqcGvUFh5ocUW7FMep0AmBfc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\vite.svg",
+      "SourceId": "ReactApp2.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\",
+      "BasePath": "_content/ReactApp2.Server",
+      "RelativePath": "vite#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69kjnsiwqx",
+      "Integrity": "SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\vite.svg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/index-CRjCMaHh.css",
+      "AssetFile": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-CRjCMaHh.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7hgy60RT6r2ojForsbOwfbZJL9mCEIV2sck/kLACsSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 13:23:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7hgy60RT6r2ojForsbOwfbZJL9mCEIV2sck/kLACsSw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-CRjCMaHh.epwu2t5z2c.css",
+      "AssetFile": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-CRjCMaHh.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7hgy60RT6r2ojForsbOwfbZJL9mCEIV2sck/kLACsSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 13:23:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "epwu2t5z2c"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-CRjCMaHh.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7hgy60RT6r2ojForsbOwfbZJL9mCEIV2sck/kLACsSw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DWfd0RoP.552y34k0jr.js",
+      "AssetFile": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-DWfd0RoP.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WfKrWxVzSSEHaT4na5+/gyagl389ZL0eWGct38/eWas=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 13:23:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "552y34k0jr"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-DWfd0RoP.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WfKrWxVzSSEHaT4na5+/gyagl389ZL0eWGct38/eWas="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DWfd0RoP.js",
+      "AssetFile": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-DWfd0RoP.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WfKrWxVzSSEHaT4na5+/gyagl389ZL0eWGct38/eWas=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 13:23:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WfKrWxVzSSEHaT4na5+/gyagl389ZL0eWGct38/eWas="
+        }
+      ]
+    },
+    {
+      "Route": "index.1fd40uapyb.html",
+      "AssetFile": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E8tEVnBRvHH2zK1gmBLgqcGvUFh5ocUW7FMep0AmBfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 13:23:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fd40uapyb"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E8tEVnBRvHH2zK1gmBLgqcGvUFh5ocUW7FMep0AmBfc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E8tEVnBRvHH2zK1gmBLgqcGvUFh5ocUW7FMep0AmBfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 13:23:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E8tEVnBRvHH2zK1gmBLgqcGvUFh5ocUW7FMep0AmBfc="
+        }
+      ]
+    },
+    {
+      "Route": "vite.69kjnsiwqx.svg",
+      "AssetFile": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 03:57:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69kjnsiwqx"
+        },
+        {
+          "Name": "label",
+          "Value": "vite.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg",
+      "AssetFile": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 03:57:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    }
+  ]
+}

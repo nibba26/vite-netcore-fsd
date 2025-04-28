@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SpaRoot>..\reactapp2.client</SpaRoot>
+    <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
+    <SpaProxyServerUrl>https://localhost:13392</SpaProxyServerUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaProxy">
+      <Version>8.*-*</Version>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\reactapp2.client\reactapp2.client.esproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+
+  <Target Name="BuildReact" BeforeTargets="Build">
+    <Exec Command="npm install" WorkingDirectory="..\reactapp2.client" />
+    <Exec Command="npm run build" WorkingDirectory="..\reactapp2.client" />
+  </Target>
+  
+  <Target Name="CopyFrontend" BeforeTargets="Build">
+    <Message Importance="high" Text="Copying frontend build output..." />
+
+    <ItemGroup>
+      <FrontendFiles Include="..\reactapp2.client\dist\**\*" />
+    </ItemGroup>
+
+    <Copy
+      SourceFiles="@(FrontendFiles)"
+      DestinationFolder="wwwroot\%(RecursiveDir)"
+      SkipUnchangedFiles="true" />
+  </Target>
+  
+</Project>

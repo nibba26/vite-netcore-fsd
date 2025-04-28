@@ -1,0 +1,1 @@
+D:\git\vite-netcore-fsd\reactapp2.client\obj\Debug\reactapp2.client.esproj.CoreCompileInputs.cache
