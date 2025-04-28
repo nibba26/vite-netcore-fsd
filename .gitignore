@@ -23,3 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 /.vs
+/ReactApp2.Server/bin
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
