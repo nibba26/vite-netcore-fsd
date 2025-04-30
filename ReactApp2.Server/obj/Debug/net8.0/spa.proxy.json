@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:13392",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\..\\reactapp2.client",
+"WorkingDirectory": "C:\\Users\\okpiri\\Desktop\\temp\\vite-netcore-fsd\\ReactApp2.Server\\..\\reactapp2.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

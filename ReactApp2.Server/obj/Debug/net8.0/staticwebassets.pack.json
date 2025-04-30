@@ -1,19 +1,39 @@
 {
   "Files": [
     {
-      "Id": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-CRjCMaHh.css",
+      "Id": "C:\\Users\\okpiri\\Desktop\\temp\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\Roboto-Regular-3dfef934.woff2",
+      "PackagePath": "staticwebassets\\assets\\Roboto-Regular-3dfef934.woff2"
+    },
+    {
+      "Id": "C:\\Users\\okpiri\\Desktop\\temp\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-5a7b8e92.css",
+      "PackagePath": "staticwebassets\\assets\\index-5a7b8e92.css"
+    },
+    {
+      "Id": "C:\\Users\\okpiri\\Desktop\\temp\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-964d1a03.js",
+      "PackagePath": "staticwebassets\\assets\\index-964d1a03.js"
+    },
+    {
+      "Id": "C:\\Users\\okpiri\\Desktop\\temp\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-CRjCMaHh.css",
       "PackagePath": "staticwebassets\\assets\\index-CRjCMaHh.css"
     },
     {
-      "Id": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-DWfd0RoP.js",
+      "Id": "C:\\Users\\okpiri\\Desktop\\temp\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-DWfd0RoP.js",
       "PackagePath": "staticwebassets\\assets\\index-DWfd0RoP.js"
     },
     {
-      "Id": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\index.html",
+      "Id": "C:\\Users\\okpiri\\Desktop\\temp\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-a94f2294.css",
+      "PackagePath": "staticwebassets\\assets\\index-a94f2294.css"
+    },
+    {
+      "Id": "C:\\Users\\okpiri\\Desktop\\temp\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\assets\\index-bf65d3df.js",
+      "PackagePath": "staticwebassets\\assets\\index-bf65d3df.js"
+    },
+    {
+      "Id": "C:\\Users\\okpiri\\Desktop\\temp\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\git\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\vite.svg",
+      "Id": "C:\\Users\\okpiri\\Desktop\\temp\\vite-netcore-fsd\\ReactApp2.Server\\wwwroot\\vite.svg",
       "PackagePath": "staticwebassets\\vite.svg"
     },
     {
