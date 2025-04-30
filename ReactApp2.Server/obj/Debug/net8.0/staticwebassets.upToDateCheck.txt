@@ -1,9 +1,0 @@
-wwwroot\assets\index-5a7b8e92.css
-wwwroot\assets\index-964d1a03.js
-wwwroot\assets\index-a94f2294.css
-wwwroot\assets\index-bf65d3df.js
-wwwroot\assets\index-CRjCMaHh.css
-wwwroot\assets\index-DWfd0RoP.js
-wwwroot\assets\Roboto-Regular-3dfef934.woff2
-wwwroot\index.html
-wwwroot\vite.svg

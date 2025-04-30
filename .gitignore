@@ -27,3 +27,6 @@ dist-ssr
 [Bb]in/
 [Oo]bj/
 [Oo]ut/
+/ReactApp2.Server/obj
+/ReactApp2.Server/bin
+/ReactApp2.Server/wwwroot
