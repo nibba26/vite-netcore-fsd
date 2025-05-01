@@ -1,5 +1,15 @@
 # Vite + React + Axios + .NET Core JWT 인증 예제
 
+
+## md reader 설치
+
+1. Visual Studio 2022 메뉴에서 Extensions > Manage Extensions 클릭.
+2. 오른쪽 상단 검색창에 "Markdown Editor" 입력.
+3. Markdown Editor by Mads Kristensen 를 선택하여 설치.
+4. 설치 후 Visual Studio를 재시작.
+5 .md 파일을 열면 편집기와 미리보기 탭이 나란히 표시됩니다.
+
+
 ## 📁 프로젝트 구조
 ```
 src/

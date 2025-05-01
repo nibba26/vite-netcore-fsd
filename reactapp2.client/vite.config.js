@@ -50,12 +50,20 @@ export default defineConfig({
             '^/weatherforecast': {
                 target,
                 secure: false
+            },
+            '^/swagger': {
+                target,
+                secure: false
+            },
+            '^/api': {
+                target,
+                secure: false
             }
         },
         port: parseInt(env.DEV_SERVER_PORT || '13392'),
-        https: {
-            key: fs.readFileSync(keyFilePath),
-            cert: fs.readFileSync(certFilePath),
-        }
+        //https: {
+        //    key: fs.readFileSync(keyFilePath),
+        //    cert: fs.readFileSync(certFilePath),
+        //}
     }
 })
