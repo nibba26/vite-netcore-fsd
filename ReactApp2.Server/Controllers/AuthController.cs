@@ -28,7 +28,7 @@ public class AuthController : ControllerBase {
 				Expires = DateTimeOffset.UtcNow.AddMinutes(60)
 			});
 
-			return Ok(new { message = "Login successful" });
+			return Ok(new { message = "Login successful", success = true });
 		}
 
 		return Unauthorized();
