@@ -18,20 +18,19 @@ public class AuthController : ControllerBase {
 	[HttpPost("login")]
 	public IActionResult Login([FromBody] LoginRequest request) {
 		// 실제 유저 인증 로직은 생략 (DB 확인 등)
-		if (request.Username == "test" && request.Password == "pass") {
-			var token = _jwtTokenService.GenerateToken("user-id-123", "Admin");
 
-			Response.Cookies.Append("access_token", token, new CookieOptions {
-				HttpOnly = true,
-				Secure = true,         // HTTPS 환경에서만 전송
-				SameSite = SameSiteMode.Strict,
-				Expires = DateTimeOffset.UtcNow.AddMinutes(60)
-			});
+		var token = _jwtTokenService.GenerateToken(request.Username, "Admin");
 
-			return Ok(new { message = "Login successful", success = true });
-		}
+		Response.Cookies.Append("access_token", token, new CookieOptions {
+			HttpOnly = true,
+			Secure = true,         // HTTPS 환경에서만 전송
+			SameSite = SameSiteMode.Strict,
+			Expires = DateTimeOffset.UtcNow.AddMinutes(60)
+		});
 
-		return Unauthorized();
+		return Ok(new { message = "Login successful", success = true });
+
+		//return Unauthorized();
 	}
 
 

@@ -12,11 +12,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainLayout from '@/widgets/layout/MainLayout';
 import AdminLayout from '@/widgets/layout/AdminLayout';
 import BlankLayout from '@/widgets/layout/BlankLayout';
-import HomePage from '@/pages/main/HomePage';
+
 import MemberPage from '@/pages/admin/MemberPage';
 import CategoryPage from '@/pages/admin/CategoryPage';
 import AccessStatsPage from '@/pages/admin/statistics/AccessStatsPage';
 import UsageStatsPage from '@/pages/admin/statistics/UsageStatsPage';
+
+import { HomePage } from '@/pages/main/HomePage';
 import { LoginPage } from '@/pages/login/LoginPage';
 import { LogoutPage } from '@/pages/login/LogoutPage';
 import { ProfilePage } from '@/pages/ProfilePage';
