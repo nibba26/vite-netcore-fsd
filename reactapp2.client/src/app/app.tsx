@@ -39,8 +39,11 @@ const App = () => (
       </Route>
       <Route path="/login" element={<BlankLayout />}>
         <Route path="" element={<LoginPage />} />
-        <Route path="logout" element={<LogoutPage />} />
       </Route>
+      <Route path="/logout" element={<BlankLayout />}>
+        <Route path="" element={<LogoutPage />} />
+      </Route>
+
     </Routes>
   </BrowserRouter>
 );
