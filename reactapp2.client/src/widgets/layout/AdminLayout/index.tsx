@@ -1,16 +1,31 @@
-// widgets/layout/AdminLayout/index.tsx
-import { Outlet } from "react-router-dom";
-import Header from "./Header";
-import Footer from "./Footer";
+import { useEffect, useState } from 'react';
+import { Outlet, useNavigate } from 'react-router-dom';
+import { getCurrentUser } from '@/shared/api/authApi';
+import { UserInfo } from '@/shared/api/types';
+import Header from './Header';
+import Footer from './Footer';
 
-const AdminLayout = () => (
-  <>
-    <Header />
-    <main style={{ padding: '1rem' }}>
-      <Outlet />
-    </main>
-    <Footer />
-  </>
-);
+const MainLayout = () => {
+  const [_user, setUser] = useState<UserInfo | null>(null);
+  const [error, setError] = useState('');
+  const navigate = useNavigate();
 
-export default AdminLayout;
+  useEffect(() => {
+    getCurrentUser()
+      .then(setUser)
+      .catch(() => {
+        setError('로그인이 필요합니다.');
+        navigate('/login');
+      });
+  }, []);
+  return (
+    <>
+      <Header />
+      <main><Outlet /></main>
+      <Footer />
+      {error && <p style={{ color: 'red' }}>{error}</p>}
+    </>
+  );
+};
+
+export default MainLayout;

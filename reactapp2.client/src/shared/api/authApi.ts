@@ -1,5 +1,5 @@
 import axiosInstance from './axios';
-import { LoginRequest, LoginResponse, UserInfo } from './types';
+import { LoginRequest, LoginResponse, UserInfo, Member } from './types';
 
 export async function login(data: LoginRequest): Promise<LoginResponse> {
   const res = await axiosInstance.post<LoginResponse>('/auth/login', data);
@@ -12,5 +12,11 @@ export async function logout(): Promise<void> {
 
 export async function getCurrentUser(): Promise<UserInfo> {
   const res = await axiosInstance.get<UserInfo>('/auth/getMyInfo');
+  return res.data;
+}
+
+
+export async function getMembers(): Promise<Member[]> {
+  const res = await axiosInstance.get<Member[]>('/members');
   return res.data;
 }

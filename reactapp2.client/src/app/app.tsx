@@ -18,9 +18,9 @@ import CategoryPage from '@/pages/admin/CategoryPage';
 import AccessStatsPage from '@/pages/admin/statistics/AccessStatsPage';
 import UsageStatsPage from '@/pages/admin/statistics/UsageStatsPage';
 
-import { HomePage } from '@/pages/main/HomePage';
-import { LoginPage } from '@/pages/login/LoginPage';
-import { LogoutPage } from '@/pages/login/LogoutPage';
+import  HomePage  from '@/pages/main/HomePage';
+import { LoginPage } from '@/pages/auth/LoginPage';
+import { LogoutPage } from '@/pages/auth/LogoutPage';
 import { ProfilePage } from '@/pages/ProfilePage';
 
 const App = () => (

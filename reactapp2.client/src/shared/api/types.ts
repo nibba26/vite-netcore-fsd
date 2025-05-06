@@ -4,7 +4,7 @@ export interface LoginRequest {
 }
 
 export interface LoginResponse {
-    token?: string; // ÅäÅ«À» body·Î ³»·ÁÁÖ´Â °æ¿ì (¼±ÅÃ)
+    token?: string; // í† í°ì„ bodyë¡œ ë‚´ë ¤ì£¼ëŠ” ê²½ìš° (ì„ íƒ)
     success: boolean;
 }
 
@@ -12,4 +12,10 @@ export interface UserInfo {
     userId: string;
     role: string;
     expires: string;
+}
+
+export interface Member {
+  id: string;
+  name: string;
+  email: string;
 }

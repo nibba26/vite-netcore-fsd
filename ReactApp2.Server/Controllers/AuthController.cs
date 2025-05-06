@@ -6,7 +6,7 @@ using ReactApp2.Server.Services;
 namespace ReactApp2.Server.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/auth")]
 public class AuthController : ControllerBase {
 	private readonly JwtTokenService _jwtTokenService;
 	private const string CookieName = "access_token";
@@ -18,6 +18,10 @@ public class AuthController : ControllerBase {
 	[HttpPost("login")]
 	public IActionResult Login([FromBody] LoginRequest request) {
 		// 실제 유저 인증 로직은 생략 (DB 확인 등)
+
+		if (request == null || request.Username == null) {
+			return Unauthorized();
+		}
 
 		var token = _jwtTokenService.GenerateToken(request.Username, "Admin");
 
@@ -71,6 +75,6 @@ public class AuthController : ControllerBase {
 }
 
 public class LoginRequest {
-	public string Username { get; set; }
-	public string Password { get; set; }
+	public string? Username { get; set; }
+	public string? Password { get; set; }
 }

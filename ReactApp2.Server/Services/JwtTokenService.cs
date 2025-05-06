@@ -13,7 +13,7 @@ public class JwtTokenService {
 	}
 
 	public string GenerateToken(string userId, string role) {
-		var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.SecretKey));
+		var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.SecretKey!));
 		var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
 		var claims = new[]
@@ -37,8 +37,8 @@ public class JwtTokenService {
 
 
 public class JwtSettings {
-	public string SecretKey { get; set; }
-	public string Issuer { get; set; }
-	public string Audience { get; set; }
+	public string? SecretKey { get; set; }
+	public string? Issuer { get; set; }
+	public string? Audience { get; set; }
 	public int ExpiresInMinutes { get; set; }
 }
