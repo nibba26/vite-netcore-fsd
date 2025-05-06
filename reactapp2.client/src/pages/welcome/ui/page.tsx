@@ -1,7 +1,7 @@
 import { FC } from 'react'
 
 import { Container } from '@/shared/ui/container'
-import { MainLayout } from '@/pages/layouts/main'
+import { MainLayout } from '@/widgets/layouts/MainLayout'
 import { Users } from '@/entities/users'
 
 import { Counter } from './counter'

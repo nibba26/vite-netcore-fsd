@@ -3,8 +3,8 @@ import { createBrowserRouter } from 'react-router-dom'
 import { routes } from '@/shared/routes'
 
 import { WelcomePage } from './welcome'
-import { LoginPage } from '@/pages/LoginPage';
-import { LogoutPage } from '@/pages/LogoutPage';
+import { LoginPage } from '@/pages/login/LoginPage';
+import { LogoutPage } from '@/pages/login/LogoutPage';
 import { ProfilePage } from '@/pages/ProfilePage';
 
 export const router = createBrowserRouter([
