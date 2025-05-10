@@ -9,9 +9,9 @@
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import MainLayout from '@/widgets/layout/MainLayout';
-import AdminLayout from '@/widgets/layout/AdminLayout';
-import BlankLayout from '@/widgets/layout/BlankLayout';
+import MainLayout from '@/widgets/layouts/MainLayout';
+import AdminLayout from '@/widgets/layouts/AdminLayout';
+import BlankLayout from '@/widgets/layouts/BlankLayout';
 
 import MemberPage from '@/pages/admin/MemberPage';
 import CategoryPage from '@/pages/admin/CategoryPage';

@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+<NpmBuild Condition=" '$(NpmBuild)' == '' ">$(NPM_BUILD)</NpmBuild>
+  </PropertyGroup>
+</Project>

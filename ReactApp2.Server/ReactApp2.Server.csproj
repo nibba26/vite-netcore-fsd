@@ -4,16 +4,18 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <SpaRoot>..\reactapp2.client</SpaRoot>
+    
+    <!--<SpaRoot>..\reactapp2.client</SpaRoot>
     <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
-    <SpaProxyServerUrl>https://localhost:13392</SpaProxyServerUrl>
+    <SpaProxyServerUrl>https://localhost:13392</SpaProxyServerUrl>-->
+    
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SpaProxy">
       <Version>8.*-*</Version>
     </PackageReference>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.9.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.9.0" />
   </ItemGroup>
@@ -24,12 +26,17 @@
     </ProjectReference>
   </ItemGroup>
 
-  <Target Name="BuildReact" BeforeTargets="Build">
+  <Target Name="LogNpmBuild" BeforeTargets="Build">
+    <Message Importance="high" Text="=== NpmBuild: $(NpmBuild) ===" />
+  </Target>
+
+
+  <Target Name="BuildReact" Condition="'$(NpmBuild)' == 'TRUE'" BeforeTargets="Build">
     <Exec Command="npm install" WorkingDirectory="..\reactapp2.client" />
     <Exec Command="npm run build" WorkingDirectory="..\reactapp2.client" />
   </Target>
   
-  <Target Name="CopyFrontend" BeforeTargets="Build">
+  <Target Name="CopyFrontend" Condition="'$(NpmBuild)' == 'TRUE'" BeforeTargets="Build">
     <Message Importance="high" Text="Copying frontend build output..." />
 
     <ItemGroup>
