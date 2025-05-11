@@ -1,4 +1,14 @@
 ﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.2191419">
+  <!--<PropertyGroup>
+    <ProjectType>web</ProjectType>
+    <NodeRoot>$(MSBuildProjectDirectory)</NodeRoot>
+    <PackageJsonPath>$(NodeRoot)\package.json</PackageJsonPath>
+    <ProjectAssetsFile>$(NodeRoot)\package-lock.json</ProjectAssetsFile>
+
+    <OutDir>$(SolutionDir)\Backend\wwwroot\</OutDir>
+    <BuildCommand>npm run build-and-copy</BuildCommand>
+    <StartCommand>npm run dev</StartCommand>
+  </PropertyGroup>-->
   <PropertyGroup>
     <StartupCommand>npm run dev</StartupCommand>
     <JavaScriptTestRoot>src\</JavaScriptTestRoot>
