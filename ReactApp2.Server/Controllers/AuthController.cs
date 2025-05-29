@@ -25,11 +25,18 @@ public class AuthController : ControllerBase {
 
 		var token = _jwtTokenService.GenerateToken(request.Username, "Admin");
 
+		//Response.Cookies.Append("access_token", token, new CookieOptions {
+		//	HttpOnly = true,
+		//	Secure = false,         // HTTPS 환경에서만 전송
+		//	SameSite = SameSiteMode.Lax,
+		//	Expires = DateTimeOffset.UtcNow.AddMinutes(60)
+		//});
+
 		Response.Cookies.Append("access_token", token, new CookieOptions {
 			HttpOnly = true,
-			Secure = true,         // HTTPS 환경에서만 전송
-			SameSite = SameSiteMode.Strict,
-			Expires = DateTimeOffset.UtcNow.AddMinutes(60)
+			Secure = true,                 // 개발환경에서만
+			SameSite = SameSiteMode.None,   // Secure 없이도 동작 가능
+			Expires = DateTimeOffset.UtcNow.AddHours(1)
 		});
 
 		return Ok(new { message = "Login successful", success = true });

@@ -11,7 +11,9 @@ export async function logout(): Promise<void> {
 }
 
 export async function getCurrentUser(): Promise<UserInfo> {
-  const res = await axiosInstance.get<UserInfo>('/auth/getMyInfo');
+  const res = await axiosInstance.get<UserInfo>('/auth/getMyInfo', {
+    withCredentials: true, // ⚠️ override (이미 설정돼 있으면 생략 가능)
+  });
   return res.data;
 }
 

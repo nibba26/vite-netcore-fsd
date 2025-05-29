@@ -20,7 +20,7 @@
         "NPM_BUILD": "FALSE"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "http://localhost:5201"
+      "applicationUrl": "https://0.0.0.0:443"
     }
 
   },
